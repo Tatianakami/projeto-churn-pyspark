@@ -1,5 +1,9 @@
-🚀 Predição de Churn com Machine Learning (PySpark)
-📝 O que é este projeto?
+# 🚀 Predição de Churn com Machine Learning (PySpark)
+
+## 📝 O que é este projeto?
+
+## 📊 Gráfico de Importância das Features
+
 
 Projeto desenvolvido para a Alura Voz, com o objetivo de reduzir a perda de clientes (Churn).
 Foram aplicadas técnicas de Engenharia de Dados e Machine Learning com PySpark para identificar clientes com maior probabilidade de cancelamento dos serviços.
