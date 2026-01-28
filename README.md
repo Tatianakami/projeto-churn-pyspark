@@ -5,7 +5,7 @@ Projeto desenvolvido para a Alura Voz, com o objetivo de reduzir a perda de clie
 Foram aplicadas técnicas de Engenharia de Dados e Machine Learning com PySpark para identificar clientes com maior probabilidade de cancelamento dos serviços.
 
 
-[Gráfico de Importância](importancia_features_churn.png)
+[Gráfico de Importância](importancia_features_v2.png)
 
 
 
