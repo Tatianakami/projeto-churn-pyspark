@@ -66,3 +66,8 @@ Spark MLlib — algoritmos de Machine Learning
 Matplotlib & Pandas — visualização e análise exploratória
 
 Google Colab — ambiente de desenvolvimento
+
+
+🔎 Observação
+Este projeto foi desenvolvido como parte do meu processo de aprendizado em PySpark e Machine Learning.
+Os comentários no código refletem meu raciocínio durante o estudo e foram mantidos para facilitar revisões futuras.
