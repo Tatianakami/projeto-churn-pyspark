@@ -1,8 +1,12 @@
 # 🚀 Predição de Churn com Machine Learning (PySpark)
 
 ## 📝 O que é este projeto?
-Projeto desenvolvido para prever a evasão de clientes (churn) utilizando PySpark e técnicas de Machine Learning.
-O objetivo foi identificar padrões de cancelamento e gerar insights que possam apoiar estratégias de retenção de clientes.
+
+Projeto desenvolvido para previsão de evasão de clientes (churn) utilizando PySpark e técnicas de Machine Learning.
+
+O objetivo é identificar padrões de cancelamento e gerar insights que apoiem estratégias de retenção de clientes.
+
+---
 
 ## 📊 Gráfico de Importância das Features
 
@@ -17,56 +21,57 @@ O objetivo foi identificar padrões de cancelamento e gerar insights que possam 
 
 
 
-🛠️ Etapas do Projeto — A Jornada do Dado
-🔹 Limpeza e Tradução dos Dados
+## 🛠️ Etapas do Projeto
 
-Transformação de dados categóricos em valores numéricos usando Dummies
-(o Spark trabalha melhor com números do que com texto)
+### 🔹 Tratamento e Preparação dos Dados
+- Conversão de variáveis categóricas em numéricas (Dummies)
+- Limpeza e padronização dos dados
 
-🔹 Vetorização
+### 🔹 Engenharia de Features
+- Vetorização de 24 características em vetor esparso  
+- Otimização para processamento em larga escala  
 
-Consolidação de 24 características do cliente (features) em um Vetor Esparso, otimizando memória e processamento em larga escala
+### 🔹 Modelagem
+- Regressão Logística  
+- Árvore de Decisão  
+- Random Forest  
 
-🔹 Batalha de Modelos
+---
 
-Testei três algoritmos para identificar o melhor desempenho preditivo:
+## 📊 Resultados
 
-Regressão Logística → o velocista
+- Modelo final: **Random Forest**  
+- Acurácia: **77,12%**  
+- Dataset balanceado (50% churn / 50% não churn)
 
-Árvore de Decisão → o visual
+---
 
-Random Forest → o comitê de especialistas
+## 🧠 Insights de Negócio
 
-📊 Resultados e Performance
+A análise de importância das variáveis revelou os principais fatores de cancelamento:
 
-✅ Modelo escolhido: Random Forest
+- Meses de contrato → clientes novos apresentam maior risco de churn  
+- Valor cobrado → impacto direto na retenção  
+- Segurança online → serviços adicionais aumentam fidelização  
 
-🎯 Acurácia final: 77,12%
+---
+## 🎯 Diferencial do Projeto
 
-⚖️ Dataset balanceado: 50% Churn / 50% Não Churn
-(aprendizado justo, sem viés)
+Este projeto vai além da modelagem preditiva, focando na geração de insights de negócio e demonstrando como dados podem apoiar decisões estratégicas de retenção de clientes.
 
-🕵️ Insights de Negócio (o que descobrimos?)
+---
 
-A análise de Feature Importance revelou os principais fatores de cancelamento:
+## 💻 Tecnologias Utilizadas
 
-Meses de Contrato (32%) → clientes novos precisam de mais atenção
+- Python  
+- PySpark  
+- Spark MLlib  
+- Pandas  
+- Matplotlib  
+- Google Colab  
 
-Valor Cobrado (25%) → preço é decisivo para retenção
+---
 
-Segurança Online (13%) → serviços adicionais aumentam fidelização
+## 🔎 Observação
 
-💻 Tecnologias Utilizadas
-
-Python & PySpark — processamento em larga escala
-
-Spark MLlib — algoritmos de Machine Learning
-
-Matplotlib & Pandas — visualização e análise exploratória
-
-Google Colab — ambiente de desenvolvimento
-
-
-🔎 Observação
-Este projeto foi desenvolvido como parte do meu processo de aprendizado em PySpark e Machine Learning.
-Os comentários no código refletem meu raciocínio durante o estudo e foram mantidos para facilitar revisões futuras.
+Projeto desenvolvido como parte da minha evolução prática em Engenharia de Dados e Machine Learning, com foco na aplicação real dos conceitos.
