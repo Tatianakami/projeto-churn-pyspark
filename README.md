@@ -5,8 +5,9 @@
 ## 📊 Gráfico de Importância das Features
 
 
-Projeto desenvolvido para a Alura Voz, com o objetivo de reduzir a perda de clientes (Churn).
-Foram aplicadas técnicas de Engenharia de Dados e Machine Learning com PySpark para identificar clientes com maior probabilidade de cancelamento dos serviços.
+Projeto desenvolvido para prever a evasão de clientes (churn) utilizando PySpark e técnicas de Machine Learning.
+
+O objetivo foi identificar padrões de cancelamento e gerar insights que possam apoiar estratégias de retenção de clientes.
 
 
 ![Importância das Features](importancia_features_v2.png)
