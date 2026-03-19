@@ -1,13 +1,11 @@
 # 🚀 Predição de Churn com Machine Learning (PySpark)
 
 ## 📝 O que é este projeto?
+Projeto desenvolvido para prever a evasão de clientes (churn) utilizando PySpark e técnicas de Machine Learning.
+O objetivo foi identificar padrões de cancelamento e gerar insights que possam apoiar estratégias de retenção de clientes.
 
 ## 📊 Gráfico de Importância das Features
 
-
-Projeto desenvolvido para prever a evasão de clientes (churn) utilizando PySpark e técnicas de Machine Learning.
-
-O objetivo foi identificar padrões de cancelamento e gerar insights que possam apoiar estratégias de retenção de clientes.
 
 
 ![Importância das Features](importancia_features_v2.png)
